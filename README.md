@@ -1,6 +1,6 @@
 # Repositorio para Postulación a los Grupos de Trabajo Backend de Adopta Un Junior
 
-Me he tomado en serio lo de demostrar mi interés en participar, por lo que este repositorio contiene una API desarrollada para gestionar las distintas razones por las que deseo formar parte de los grupos de trabajo de Backend. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de razones, que se describen con un título, una descripción y etiquetas asociadas.
+Me he tomado en serio lo de demostrar mi interés en participar, por lo que este repositorio contiene una API diseñada para gestionar las distintas razones por las que deseo formar parte de los grupos de trabajo de Backend. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de razones, que se describen con un título, una descripción y etiquetas asociadas.
 
 La estructura del proyecto es simple: en `connect.js` se realiza la conexión a la base de datos, en `index.js` se configura la API, en `routes` se definen las rutas para las operaciones CRUD, en `models` se define el esquema de Mongoose especificando los campos para motivaciones, y en `controllers` se maneja la lógica de las operaciones CRUD.
 
