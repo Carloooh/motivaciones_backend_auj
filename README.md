@@ -10,11 +10,11 @@ Prontamente añadiré un pequeño front-end como un extra para mejorar la visual
 
 ## Funcionalidades Principales
 
-- **Obtener Todas las Motivaciones**: Listar todas las motivaciones disponibles en la base de datos.
-- **Obtener una Motivación**: Obtener los detalles de una motivación específica.
-- **Añadir Motivación**: Permitir a los usuarios agregar nuevas motivaciones, con validaciones para asegurar la integridad de los datos.
-- **Editar Motivación**: Permitir a los usuarios actualizar motivaciones existentes, con validaciones para mantener la consistencia.
-- **Eliminar Motivación**: Permitir a los usuarios eliminar motivaciones no deseadas.
+- Obtener un listado de todas las Motivaciones
+- Obtener una Motivación específica
+- Añadir nueva Motivación
+- Editar Motivación
+- Eliminar Motivación
 
 ## Tecnologías Utilizadas
 
