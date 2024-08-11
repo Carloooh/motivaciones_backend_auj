@@ -1,8 +1,12 @@
 # Repositorio para Postulación a los Grupos de Trabajo Backend de Adopta Un Junior
 
-Este repositorio contiene una API desarrollada con Node.js, Express y MongoDB, diseñada para gestionar las razones por las que deseo formar parte de los grupos de trabajo de Backend. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de razones, que se describen con un título, una descripción y etiquetas asociadas.
+Me he tomado en serio lo de demostrar mi interés en participar, por lo que este repositorio contiene una API desarrollada para gestionar las distintas razones por las que deseo formar parte de los grupos de trabajo de Backend. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de razones, que se describen con un título, una descripción y etiquetas asociadas.
 
-[URL Backend](https://motivaciones-backend-auj.vercel.app/motivaciones)
+La estructura del proyecto es simple: en `connect.js` se realiza la conexión a la base de datos, en `index.js` se configura la API, en `routes` se definen las rutas para las operaciones CRUD, en `models` se define el esquema de Mongoose especificando los campos para motivaciones, y en `controllers` se maneja la lógica de las operaciones CRUD.
+
+[URL endpoint](https://motivaciones-backend-auj.vercel.app/motivaciones)
+
+Prontamente añadiré un pequeño front-end como un extra para mejorar la visualización de la API.
 
 ## Funcionalidades Principales
 
@@ -14,9 +18,7 @@ Este repositorio contiene una API desarrollada con Node.js, Express y MongoDB, d
 
 ## Tecnologías Utilizadas
 
-- **Node.js**: Entorno de ejecución para JavaScript en el servidor.
-- **Express**: Framework web para Node.js que facilita la construcción de APIs.
-- **MongoDB**: Base de datos NoSQL para el almacenamiento de datos flexibles y escalables.
+**Node.js** | **Express** | **MongoDB** | **Vercel**
 
 ## Tareas a Desarrollar
 
