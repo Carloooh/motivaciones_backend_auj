@@ -6,7 +6,8 @@ La estructura del proyecto es simple: en `connect.js` se realiza la conexión a 
 
 [URL endpoint](https://motivaciones-backend-auj.vercel.app/motivaciones)
 
-Prontamente añadiré un pequeño front-end como un extra para mejorar la visualización de la API.
+Complemento, creé una web simple conectada a mi API para facilitar la visualización de mis motivaciones <3
+[Visita la web](https://motivaciones-frontend-auj.vercel.app/)
 
 ## Funcionalidades Principales
 
