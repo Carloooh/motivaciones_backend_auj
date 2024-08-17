@@ -30,7 +30,7 @@ Como extra, he creado una web sencilla que se conecta a mi API para que puedan v
 - [x] Crear Repositorio
 
 ### Semana 2
-- [ ] Crear Issue
+- [x] Crear Issue
 - [ ] Aceptar PR
 
 ### Semana 3
