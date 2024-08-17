@@ -22,7 +22,7 @@ Como extra, he creado una web sencilla que se conecta a mi API para que puedan v
 
 ## Tecnologías Utilizadas
 
-**Node.js** | **Express** | **MongoDB** | **Vercel**
+**Node.js** | **Express** | **JavaScript** | **MongoDB** | **Vercel**
 
 ## Tareas a Desarrollar
 
