@@ -78,6 +78,7 @@ async function updateMotivacion(req, res) {
     }
 
     if (updateData.etiquetas) {
+      updateData.etiquetas = updateData.etiquetas.map(tag => tag.trim());
       if (updateData.etiquetas.length > 5) {
         return res.status(400).json({ error: "No se puden tener mas de 5 etiquetas" });
       }
