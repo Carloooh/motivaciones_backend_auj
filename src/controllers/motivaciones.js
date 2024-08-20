@@ -78,7 +78,7 @@ async function updateMotivacion(req, res) {
     }
 
     if (updateData.etiquetas) {
-      if (updateData.etiquetas. length > 5) {
+      if (updateData.etiquetas.length > 5) {
         return res.status(400).json({ error: "No se puden tener mas de 5 etiquetas" });
       }
     }
@@ -96,7 +96,7 @@ async function updateMotivacion(req, res) {
     res.json(motivacion);
   } catch (error) {
     if (error.code === 11000) {
-      return res.status(400).json({ error: "El título ya existe, elija otro título" });
+      res.status(400).json({ error: "El título ya existe, elija otro título" });
     } else {
       res.status(500).json({ error: error.message });
     }
