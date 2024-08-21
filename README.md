@@ -32,6 +32,7 @@ Como extra, he creado una web sencilla que se conecta a mi API para que puedan v
 ### Semana 2
 - [x] Crear Issue
 - [x] Aceptar PR
+- [x] Cerrar Issue
 
 ### Semana 3
 - [ ] Documentar mi proyecto, contribuciones y explicación sobre por qué debería ser escogido
