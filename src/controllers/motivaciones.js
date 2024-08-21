@@ -23,7 +23,7 @@ async function getMotivacionById(req, res) {
 
 async function addMotivacion(req, res) {
   try {
-    const { titulo, descripcion, etiquetas } = req.body;
+    let { titulo, descripcion, etiquetas } = req.body;
 
     if (!titulo || !descripcion) {
       return res.status(400).json({ error: "Título y descripción son requeridos" });
@@ -59,7 +59,7 @@ async function addMotivacion(req, res) {
 async function updateMotivacion(req, res) {
   try {
     const motivacionId = req.params.id;
-    const updateData = req.body;
+    let updateData = req.body;
 
     if (Object.keys(updateData).length === 0) {
       return res.status(400).json({ error: "No hay datos para actualizar" });
@@ -76,17 +76,17 @@ async function updateMotivacion(req, res) {
         return res.status(400).json({ error: "La descripción debe tener al menos 20 caracteres" });
       }
     }
-
+    
     if (updateData.etiquetas) {
       updateData.etiquetas = updateData.etiquetas.map(tag => tag.trim());
       if (updateData.etiquetas.length > 5) {
-        return res.status(400).json({ error: "No se puden tener mas de 5 etiquetas" });
+        return res.status(400).json({ error: "No se pueden tener más de 5 etiquetas" });
       }
     }
 
     const motivacion = await Motivacion.findByIdAndUpdate(
       motivacionId,
-      { $set: updateData }, 
+      { $set: updateData },
       { new: true, runValidators: true }
     );
 

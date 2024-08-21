@@ -13,9 +13,9 @@ const motivacionSchema = new mongoose.Schema({
     required: true,
     minlength: 20,
   },
-  etiquetas: { 
+  etiquetas: {
     type: [String],
-    validate: [arrayLimit, 'No se pueden tener mas de 5 etiquetas']
+    validate: [arrayLimit, 'No se pueden tener más de 5 etiquetas']
   }
 });
 
